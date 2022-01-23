@@ -15,18 +15,18 @@ Add function deleteHandler, add the function as attribute in the <button> elemen
 
 ## useState
 
-//useState, first should import useState from react. `useState` is called react hook. The react hooks can only be called directly in react component functions.
-//Second, put it in the Todo component instead of the deleteHandler function.
-// useState 初始设置为 false
+- first should import useState from react. **`useState` is called react hook.** The react hooks can only be called directly in react component functions.
+- Second, put it in the Todo component instead of the deleteHandler function.
+- useState 初始设置为 false
 
-// `{ modalIsOpen ? <Modal /> : null}` 这个的简短写法为  { modalIsOpen && <Modal />}
+- `{ modalIsOpen ? <Modal /> : null}` 这个的简短写法为  { modalIsOpen && <Modal />}
 //if modalIsOpen is true(?), we render <Modal />; else (:) we don't output anything (null)
 
 
 ## Event Props
 UI 交互描述: 
-1. 点击背景 backdrop, 关闭 modal（whether confirm) 的对话框.
-2. 2. click the cancel/confirm button, cancel (keep) or confirm (delete)， close modal
+1. 点击背景 backdrop, 关闭 modal（whether confirm 的对话框.
+2. click the cancel/confirm button, cancel (keep) or confirm (delete)， close modal
 
 ### 1.如果点击背景(backdrop),则关闭对话框
 - create a function `closeModalHandler`, set 
