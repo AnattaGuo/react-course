@@ -10,4 +10,4 @@ Two Projects:
 
 
 
-[MyTodos Learning Notes](./notes.md)
+[MyTodos Learning Notes](./MyTodos/notes.md)
